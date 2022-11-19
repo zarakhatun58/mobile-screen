@@ -1,0 +1,64 @@
+.App-header {
+    background-color: #83f4e3;
+    text-align: center;
+    color: white;
+}
+
+.user {
+    width: 250px;
+    max-width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid white !important;
+    border-radius: 25px;
+    background-color: rgb(72, 165, 136);
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.password {
+    width: 250px;
+    max-width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: rgb(72, 165, 136);
+    color: white;
+}
+
+.forgot {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.login {
+    width: 250px;
+    max-width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(72, 165, 136);
+}
+.heart{
+    align-items: center;
+    max-width: 150px;
+    color: white;
+   
+}
+.appName{
+ font-weight: 600;
+ font-size: 25px;
+ margin-bottom: 50px;
+}
+
+@media  (min-width: 320px) and (max-width: 600px) {
+    .user, .password, .forgot, .login, .heart, .appName {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

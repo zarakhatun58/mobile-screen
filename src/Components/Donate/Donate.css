@@ -1,0 +1,40 @@
+.camera {
+    color: white;
+    width: 50px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.cameraBox {
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(72, 165, 136);
+    background-color: rgb(72, 165, 136);
+    border-radius: 5px;
+    text-align: center;
+   margin: auto;
+   /* margin-top: 30px; */
+}
+
+.dropzone {
+    /* position: relative; */
+    border: var(--border-width) solid transparent;
+    border-radius: var(--border-radius);
+    background-clip: padding-box;
+    background-color: var(--bg-color);
+  }
+  .dropzone::before {
+    content: '';
+    position: absolute;
+    top: calc(var(--border-width) * -1); /* or without variables: 'top: -1px;' */
+    right: calc(var(--border-width) * -1);
+    bottom: calc(var(--border-width) * -1);
+    left: calc(var(--border-width) * -1);
+    z-index: -1;
+    background-image: repeating-linear-gradient(135deg, transparent 0 8px, var(--bg-color) 8px 16px);
+    border-radius: var(--border-radius);
+    background-color: rgba(0, 0, 0, 0.38);
+  }
+  
+  

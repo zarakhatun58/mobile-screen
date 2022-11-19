@@ -1,0 +1,121 @@
+.main {
+    background-color: rgb(205, 202, 202);
+    text-align: center;
+    margin: auto;
+    min-width: 360px,
+}
+
+.camera {
+    color: white;
+    width: 50px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.cameraBox {
+    width: 130px;
+    height: 90px;
+    border: 1px solid rgb(72, 165, 136);
+    background-color: rgb(72, 165, 136);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 380;
+    background-color: white;
+    margin: auto;
+    box-shadow: 5px 10px 8px #888888;
+    height: 120px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(72, 165, 136);
+}
+
+.text {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 20px;
+    color: gray;
+
+}
+
+.devide {
+    border: 2px solid gray;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    .user,
+    .password,
+    .forgot,
+    .login,
+    .heart,
+    .appName {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    ;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    ;
+
+    .cameraBox {
+        width: auto;
+        height: auto;
+
+    }
+
+    ;
+
+    .heading {
+        font-size: 10px;
+
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    ;
+
+    .cameraBox {
+        width: auto;
+        height: auto;
+
+    }
+
+    ;
+
+    .heading {
+        font-size: 10px;
+
+    }
+
+    .text {
+        font-size: 8px;
+    }
+}
