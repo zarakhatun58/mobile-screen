@@ -50,7 +50,7 @@ const Home = () => {
     return (
         <Box sx={{ width: '100%',  }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{maxWidth:"360px"}}>
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{maxWidth:"360px"}} centered>
           <Tab label="Option One" {...a11yProps(0)} />
           <Tab label="Option Two" {...a11yProps(1)} />
           <Tab label="Option Three" {...a11yProps(2)} />

@@ -12,7 +12,7 @@
     border: 1px solid white !important;
     border-radius: 25px;
     background-color: rgb(72, 165, 136);
-    color: white;
+    color: white !important;
     margin-bottom: 20px;
 
 }
@@ -25,7 +25,8 @@
     border: 1px solid white;
     border-radius: 25px;
     background-color: rgb(72, 165, 136);
-    color: white;
+    color: white !important;
+    
 }
 
 .forgot {

@@ -18,11 +18,8 @@ const Login = () => {
             <div className="App-header">
 
                 <img src={love} alt="heart" className="heart" />
-                {/* <div>
-                    <VolunteerActivismOutlinedIcon  style={{width:"100px"}}/>
-                </div> */}
                 <div className="appName"> APP NAME</div>
-                <input className="user" placeholder="username" value={username} onChange={e => setUsername(e.value)} />
+                <input className="user" placeholder="username" value={username} onChange={e => setUsername(e.value)} style={{color:'white'}}/>
 
                 <input className="password" placeholder="password" value={password} onChange={e => setPassword(e.value)} />
                 <p className="forgot"> Forgot Password?</p>
