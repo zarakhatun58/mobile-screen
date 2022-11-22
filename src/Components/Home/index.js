@@ -8,6 +8,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import NewCom from '../NewCom';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -54,6 +55,7 @@ const Home = () => {
           <Tab label="Option One" {...a11yProps(0)} />
           <Tab label="Option Two" {...a11yProps(1)} />
           <Tab label="Option Three" {...a11yProps(2)} />
+          <Tab label="Option Four" {...a11yProps(3)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
@@ -64,6 +66,9 @@ const Home = () => {
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Donate/>
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+      <NewCom/>
       </TabPanel>
     </Box>
     );
